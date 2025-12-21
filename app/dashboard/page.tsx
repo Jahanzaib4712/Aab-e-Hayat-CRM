@@ -1148,9 +1148,9 @@ useEffect(() => {
                 <label className="block text-sm font-bold text-gray-700 mb-2">Rate per Bottle (Rs.)</label>
                 <input
                   type="number"
-                  placeholder="120"
+                  placeholder="30"
                   value={customerForm.rate}
-                  onChange={(e) => setCustomerForm({ ...customerForm, rate: parseInt(e.target.value) || 120 })}
+                  onChange={(e) => setCustomerForm({ ...customerForm, rate: parseInt(e.target.value) || 30 })}
                   className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-cyan-500 focus:ring-4 focus:ring-cyan-100 transition-all outline-none text-gray-900 placeholder-gray-400 font-semibold"
                 />
               </div>
