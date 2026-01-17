@@ -1,5 +1,4 @@
-// app/page.tsx - Homepage/Login
-'use client';
+"use client";
 
 import { SignInButton, useUser } from '@clerk/nextjs';
 import { useRouter } from 'next/navigation';
